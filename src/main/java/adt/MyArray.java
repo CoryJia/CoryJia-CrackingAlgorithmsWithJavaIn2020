@@ -1,6 +1,5 @@
 package adt;
 
-import basicalgo.s2sortingalgorithm.SortingAlgorithm;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -28,7 +27,7 @@ public class MyArray {
     public static int[] generateRandomSortedArray(int length, int bound) {
         int[] arr = generateRandomUnsortedArray(length, bound);
 
-        SortingAlgorithm.quickSort(arr);
+//        SortingAlgorithm.quickSort(arr);
 
         return arr;
 
@@ -37,7 +36,7 @@ public class MyArray {
     public static int[] generateRandomPositiveSortedArray(int length, int bound) {
         int[] arr = generateRandomPositiveSortedArray(length, bound);
 
-        SortingAlgorithm.quickSort(arr);
+//        SortingAlgorithm.quickSort(arr);
 
         return arr;
 

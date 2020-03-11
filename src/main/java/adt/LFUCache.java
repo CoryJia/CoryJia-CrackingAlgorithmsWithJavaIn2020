@@ -11,7 +11,6 @@ package adt;
  * word which is least recently being used.
  */
 
-import org.junit.Test;
 
 import java.util.*;
 
