@@ -6,7 +6,7 @@ import java.util.*;
  * @author coryjia@gmail.com
  * @date 4/2/20 6:24 PM
  */
-public class LC417PacificAtlanticWaterFlow {
+public class LC417_Pacific_Atlantic_Water_Flow {
     private static final int[][] DIR = {{1, 0}, {-1, 0}, {0, -1}, {0, 1}}; //UP,DOWN,LEFT,RIGHT
 
     public static List<List<Integer>> pacificAtlantic(int[][] matrix) {

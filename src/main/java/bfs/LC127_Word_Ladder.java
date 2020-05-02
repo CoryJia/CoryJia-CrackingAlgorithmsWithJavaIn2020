@@ -2,7 +2,7 @@ package bfs;
 
 import java.util.*;
 
-public class LC127WordLadder {
+public class LC127_Word_Ladder {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         if (beginWord == null || endWord == null || wordList == null) {
             return -1;

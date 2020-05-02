@@ -21,7 +21,7 @@ class Node {
     }
 }
 
-public class LC116PopulatingNextRightPointersInEachNode {
+public class LC116_Populating_Next_Right_Pointers_In_Each_Node {
     public Node connect(Node root) {
         if(root == null) return null;
 

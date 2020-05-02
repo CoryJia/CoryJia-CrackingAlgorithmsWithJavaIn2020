@@ -3,7 +3,7 @@ package bfs;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class LC286WallsAndGates {
+public class LC286_Walls_And_Gates {
     private final int INF = Integer.MAX_VALUE;
     private final int[][] DIR = {{1, 0}, {-1, 0}, {0, -1}, {0, 1}}; //UP,DOWN,LEFT,RIGHT
 

@@ -2,7 +2,7 @@ package bfs;
 
 import java.util.*;
 
-public class LC126WordLadderIII {
+public class LC126_Word_Ladder_III {
 
     /**
      * Word Ladder III -> Only output any one of the shortest path
@@ -61,7 +61,7 @@ public class LC126WordLadderIII {
     }
 
     public static void main(String[] args) {
-        LC126WordLadderIII solution = new LC126WordLadderIII();
+        LC126_Word_Ladder_III solution = new LC126_Word_Ladder_III();
 
         String beginWord = "tot";
         String endWord = "dog";

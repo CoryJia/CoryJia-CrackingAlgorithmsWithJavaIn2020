@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class LC364NestedListWeightSumII {
+public class LC364_Nested_List_Weight_Sum_II {
     public int depthSumInverse(List<NestedInteger> nestedList) {
         int sum = 0, levelSum = 0;
 

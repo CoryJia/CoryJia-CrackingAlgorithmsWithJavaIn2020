@@ -3,7 +3,7 @@ package bfs;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class LC317ShortestDistanceFromAllBuildings {
+public class LC317_Shortest_Distance_From_All_Buildings {
     private static final int[][] DIR = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     public int shortestDistance(int[][] grid) {
         if (grid == null || grid.length == 0) {

@@ -2,7 +2,7 @@ package bfs;
 
 import java.util.*;
 
-public class LC126WordLadderII {
+public class LC126_Word_Ladder_II {
     public List<List<String>> findLaddersByOneDirection(String beginWord, String endWord, List<String> wordList) {
         List<List<String>> res = new ArrayList<>();
 

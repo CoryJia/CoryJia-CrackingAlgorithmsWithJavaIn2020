@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class LC103BinaryTreeZigzagLevelOrderTraversal {
+public class LC103_Binary_Tree_Zigzag_Level_Order_Traversal {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null) {

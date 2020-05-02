@@ -2,7 +2,7 @@ package bfs;
 
 import java.util.*;
 
-public class LC310MinimumHeightTrees {
+public class LC310_Minimum_Height_Trees {
     private class TreeNode{
         public Set<Integer> neighbors;
         public int label;

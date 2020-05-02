@@ -2,7 +2,7 @@ package bfs;
 
 import java.util.PriorityQueue;
 
-public class LC407TrappingRainWaterII {
+public class LC407_Trapping_RainWater_II {
     private class Cell implements Comparable<Cell> {
         int i, j, height;
 
@@ -70,7 +70,7 @@ public class LC407TrappingRainWaterII {
     public static void main(String[] args) {
         int[][] heightMap = {{1, 4, 3, 1, 3, 2}, {3, 2, 1, 3, 2, 4}, {2, 3, 3, 2, 3, 1}};
 
-        int res = new LC407TrappingRainWaterII().trapRainWater(heightMap);
+        int res = new LC407_Trapping_RainWater_II().trapRainWater(heightMap);
         System.out.println(res);
     }
 }

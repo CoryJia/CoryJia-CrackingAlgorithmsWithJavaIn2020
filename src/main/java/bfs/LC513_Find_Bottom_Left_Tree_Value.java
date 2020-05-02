@@ -10,7 +10,7 @@ import java.util.Queue;
  * @author coryjia@gmail.com
  * @date 5/1/20 7:12 PM
  */
-public class LC513FindBottomLeftTreeValue {
+public class LC513_Find_Bottom_Left_Tree_Value {
     public int findBottomLeftValue(TreeNode root) {
         if (root == null) {
             throw new IllegalArgumentException();

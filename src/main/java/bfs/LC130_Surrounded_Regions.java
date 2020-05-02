@@ -5,7 +5,7 @@ import adt.MyArray;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class LC130SurroundedRegions {
+public class LC130_Surrounded_Regions {
 
     private static final int[][] DIR = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
