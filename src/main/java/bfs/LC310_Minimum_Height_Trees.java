@@ -57,9 +57,6 @@ public class LC310_Minimum_Height_Trees {
 
             while (size-- > 0) {
                 int cur = queue.poll();
-                for (Integer neighbor : graph[cur].neighbors) {
-
-                }
 
                 for (Integer nei : graph[cur].neighbors) {
                     graph[nei].removeNei(cur);
